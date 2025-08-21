@@ -1,12 +1,13 @@
 
 /* Your CSS Code here. */
-button{
-	color:rgb(255,255,255);
-	border-radius:5px;
-	background-color:black;
+button {
+  color: rgb(255, 255, 255);   /* white text */
+  border-radius: 5px;
+  background-color: black;
+  border: 0;                   /* removes default border */
 }
-button:hover{
-	color:yellow;
-	font-color:yellow;
-	border-radius:30px;
+
+button:hover {
+  color: yellow;               /* hover color */
+  border-radius: 30px;
 }
